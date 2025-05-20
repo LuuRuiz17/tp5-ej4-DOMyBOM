@@ -7,3 +7,14 @@ body{
 main{
     flex-grow: 1;
 }
+
+.contenedorFecha,
+.contenedorHora{
+    font-size: 1.8vw;
+    color: lightblue;
+}
+
+.contenedorSection{
+    border-radius: 5px;
+    border: 2px groove rgb(132, 203, 226);
+}
