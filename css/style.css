@@ -8,13 +8,37 @@ main{
     flex-grow: 1;
 }
 
-.contenedorFecha,
+.contenedorFecha{
+    font-size: 14px;
+    color: lightblue;
+}
+
 .contenedorHora{
-    font-size: 1.8vw;
+    font-size: 25px;
     color: lightblue;
 }
 
 .contenedorSection{
     border-radius: 5px;
     border: 2px groove rgb(132, 203, 226);
+}
+
+@media (min-width: 768px) {
+    .contenedorSection{
+        width: 75%;
+        margin: auto;
+    }
+    .contenedorFecha{
+        font-size: 25px;
+    }
+    .contenedorHora{
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .contenedorSection{
+        width: 50%;
+        margin: auto;
+    }
 }
